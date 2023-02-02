@@ -25,7 +25,7 @@ void generateMatrix(){
 // hint 51: Try thinking about it layer by layer. Can you rotate a specific layer?.
 void easy_rotateMatrix(){
   printf("matrix rotate:\n");
-  for(int j=N; j>=0; j--){
+  for(int j=N-1; j>=0; j--){
     //coloco j porque lo estoy invirtiendo
     for(int i=0; i<N; i++)
       printf("%d",m[i][j]);
