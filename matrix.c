@@ -28,7 +28,7 @@ void easy_rotateMatrix(){
   for(int j=N-1; j>=0; j--){
     //coloco j porque lo estoy invirtiendo
     for(int i=0; i<N; i++)
-      printf("%d",m[i][j]);
+      printf("%d ",m[i][j]);
     printf("\n");
   }
   // here goes your code
