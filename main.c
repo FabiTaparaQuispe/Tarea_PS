@@ -4,7 +4,9 @@
 int main(){
     srand(time(NULL));
 
-    //here goes your code
+    generateMatrix();
+    printMatrix();
+    easy_rotateMatrix();
 
     return 0;
 }
